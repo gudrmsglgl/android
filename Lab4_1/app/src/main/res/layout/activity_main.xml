@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gimhyeong_geun.lab4_1.MainActivity"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="치킨배달"
+        android:id="@+id/textView"
+        android:textColor="#d25cc6"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_weight="0.12" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="154dp">
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:text="주문하기"
+        android:id="@+id/order_btn"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:onClick="onOrderClicked" />
+
+    <Button
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:text="상점정보"
+        android:id="@+id/shop_info_btn"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:onClick="onShopInfoClicked" />
+
+</LinearLayout>
